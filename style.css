@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: hsl(233, 47%, 7%);
+}
+
+.card {
+    width: 70%;
+    height: 350px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background: hsl(244, 38%, 16%);
+}
+
+.card .content {
+    width: 50%;
+    height: 100;
+    display: grid;
+    grid-template-rows: 50px 150px 50px;
+    padding: 70px 60px;
+    justify-content: center;
+    
+}
+
+.card .image {
+    background: url(./image.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}
+
+.card .content .title h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+}
+
+.card .content .title span {
+    color: hsl(277, 64%, 61%);
+    
+}
+
+.card .content .title .text p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding: 20px 5px;
+}
+
+.card .content .title .valores {
+    display: inline-block;  
+}
+
+.card .content .title .valores .valor {
+    display: inline-block;
+    padding: 30px;
+}
+.card .content .title .valores .valor h2{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 12px;
+
+}
+
+.card .content .title .valores .valor span{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 8px;
+}
